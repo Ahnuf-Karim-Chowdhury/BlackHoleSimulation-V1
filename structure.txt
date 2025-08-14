@@ -1,0 +1,28 @@
+blackhole-raytracing/
+├── requirements.txt
+├── main.py
+├── physics/
+│   ├── __init__.py
+│   ├── blackhole.py
+│   ├── objects.py
+│   └── raytracing.py
+├── visualization/
+│   ├── __init__.py
+│   ├── renderer.py
+│   └── camera.py
+└── assets/
+    ├── textures/
+    └── shaders/
+
+
+physics/__init__.py
+physics/blackhole.py
+physics/objects.py
+physics/raytracing.py
+
+visualization/__init__.py
+visualization/renderer.py
+visualization/camera.py
+
+assets/textures/__init__.py
+assets/shaders/__init__.py
